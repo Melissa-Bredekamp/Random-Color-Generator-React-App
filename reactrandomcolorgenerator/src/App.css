@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: black;
+  background-color: white;
   color: black;
   text-align: center;
   font-style: oblique;
@@ -9,6 +9,7 @@
 }
 .h1 {
   font-size: small;
+  justify-content: center;
 }
 
 button {
@@ -19,7 +20,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 10px;
   margin: 6px 2px;
   cursor: pointer;
   color: black;
@@ -27,12 +28,28 @@ button {
   border-radius: 50%;
   font-style: oblique;
   font-weight: 400;
-  width: 400;
-  height: 400;
+  width: 300;
+  height: 300;
   object-fit: cover;
+  justify-content: center;
 }
 
 button:hover {
   transition: ease-in 0.2s;
   background-color: white;
+}
+input {
+  padding: 10px 20px;
+  margin: 10%;
+  font-size: 1%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.color {
+  background-color: transparent;
+  font-size: 4px;
+  border-radius: 20px;
+  size: 2px;
 }
