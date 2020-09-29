@@ -28,7 +28,11 @@ const App = () => {
           zoom: 4,
         }}
       >
-        <h1>{hex}</h1>
+        <h1>
+          Random Color Generator
+          <br />
+          {hex}
+        </h1>
         <button onClick={RandomizedHex}>Randomize</button>
 
         <form onClick={handleSubmit}>
@@ -53,6 +57,7 @@ const App = () => {
         </form>
       </div>
     </>
+    // );{ hue: hue, luminosity: luminosity }
   );
 };
 
